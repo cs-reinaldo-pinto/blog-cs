@@ -84,7 +84,7 @@ Selecione um ou mais "Security Groups":
 
 ![tag8](./imagens/img006.png)
 
-Agora com o recurso de integraçãao com KMS, é possivel criptografar as variaveis de ambiente. Você pode associar um KMS em uso na conta.
+Integração com KMS, é possivel criptografar as variaveis de ambiente. Você pode associar um KMS em uso na conta.
 Finalizado a configuracao, aperte "Next":
 
 ![tag9](./imagens/img007.png)
