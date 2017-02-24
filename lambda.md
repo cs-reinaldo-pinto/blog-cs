@@ -57,7 +57,7 @@ Selecione "Blank Function":
 
 ![tag4](./imagens/img002.png)
 
-O Lambda trabalha com triggers, muito útil com integrações com outros serviços da AWS, por exemplo o S3, API Gateway e etc. No nosso blog tem alguns exemplos [clique aqui.](http://www.concretesolutions.com.br/?s=lambda&post_type=post)
+O Lambda trabalha com triggers, muito útil com integrações com outros serviços da AWS, por exemplo o S3. No nosso blog tem alguns exemplos [clique aqui.](http://www.concretesolutions.com.br/?s=lambda&post_type=post)
 Mas nesse momento não vamos associar uma trigger:
 
 ![tag5](./imagens/img003.png)
