@@ -4,11 +4,11 @@
 
 Olá pessoal, objetivo do post, é auxiliar novos usuários da AWS que tem dúvidas sobre o Lambda.
 
-##### Que tal comecarmos explicando "Oque é Lambda?!""
+#### Que tal comecarmos explicando "Oque é Lambda?!""
 
 Para resumir, é uma plataforma "Server-less" da AWS que executa funções de codigo, sem a necessidade de ter uma infraestrutura, seu codigo só executado quando invocado. Chamamos de "Função do Lambda", quando o Lambda for invocado, isso quer dizer que seu codigo foi executado. Usado como servico stateless. No blog tem outros posts sobre Lambda que pode enriquecer o conhecimento sobre Lambda [clique aqui.](http://www.concretesolutions.com.br/?s=lambda&post_type=post)
 
-##### Ta bom! Mas, quando usar?
+#### Ta bom! Mas, quando usar?
 
 No caso de uma arquitetura baseada em microserviços será o ideal.
 
@@ -29,17 +29,17 @@ Dois exemplos simples de um arquitetura usando Lambda:
 
 Alguns cases de sucesso [clique aqui.](https://aws.amazon.com/pt/solutions/case-studies/all/)
 
-##### E o custo?
+#### E o custo?
 
 Isso é o mais interessante, muitas vezes esse servico sera gratuito. Serio? Sim, a AWS disponibiliza para alguns servicos um "nivel gratuito", no caso do Lambda até 1 milhao de execuções (invocação) e 400.000 GB/segundo de tempo de memoria usada por mês.
 Excedendo o nível gratuito, você só paga pelo tempo de execução, o tempo de execução não conta o tempo de iniciar a "instância", e sim a partir do momento que seu codigo inicia e termina, isso é demais.
 Mas lembre-se seu codigo teve ficar armazenado em algum lugar! O Lambda armazena no s3, e isso pode gerar um custo baixo. Para detalhes [clique aqui.](https://aws.amazon.com/pt/lambda/pricing/)
 
-##### Nossa marotão 😎 haha!!! Mas oque eu preciso para criar um Lambda?
+#### Nossa marotão 😎 haha!!! Mas oque eu preciso para criar um Lambda?
 
 Aqui tem uma parte chatinha, mas muito importante, você deve criar policies e associar a uma role, com os niveis de permissões necessário, garantindo ainda mais segurança e deixando uma arquitetura muito mais justa. Para detalhes [clique aqui.](http://docs.aws.amazon.com/pt_br/lambda/latest/dg/access-control-identity-based.html)
 
-##### Como nada é perfeito, vejamos alguns pros:
+#### Como nada é perfeito, vejamos alguns pros:
 
 - Não tem suporte para todas linguagens.
 - Não esta disponivel em todas regioes da AWS.
@@ -111,4 +111,4 @@ Faça outro teste com seu nome e sobre nome e verifique o retorno. 😆
 _______
 Espero que o post ajude os iniciantes no mundo de microservices e cloud computing com o Lambda AWS.
 
-###### Feedbacks são bem-vindo!!! Abraços 😘!!
+##### Feedbacks são bem-vindo!!! Abraços 😘!!
