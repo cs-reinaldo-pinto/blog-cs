@@ -12,9 +12,9 @@ Para resumir, é uma plataforma "Server-less" da AWS que executa funções de co
 
 No caso de uma arquitetura baseada em microserviços será o ideal.
 
-Mas uma recomendação verifique se seu código está coeso, atende aos requisitos minimo de patterns e modularizacao, nossa agora complicou né, haha.
+Mas uma recomendação verifique se seu código está coeso, atende aos requisitos minimo de patterns e modularizacao, nossa agora complicou né, haha. 😅
 
-Ok, resumindo podemos quebrar nossa aplicacao e colocarmos algum modulo no Lambda, por exemplo: Em um sistema aonde a granularidade segrega o modulo de login, será que é necessario este servico rodar 24x7x360 em uma VM ?! Isso é disperdicio de recurso, dinheiro gasto sem necessidade. Para resolver isso podemos usar um Lambda. Mas lembre-se devemos tratar o Lambda como serviço stateless.
+Calma, resumindo podemos quebrar nossa aplicacao e colocarmos algum modulo no Lambda, por exemplo: Em um sistema aonde a granularidade segrega o modulo de login, será que é necessario este servico rodar 24x7x360 em uma VM ?! Isso é disperdicio de recurso, dinheiro gasto sem necessidade. Para resolver isso podemos usar um Lambda. Mas lembre-se devemos tratar o Lambda como serviço stateless.
 
 Por se tratar de um serviço gerenciado pela AWS, usamos quando não queremos se preocupar com a infraestrutura e escalabilidade. Sem esquentar com atualizacao de Sistema Operacional, bugs e etc. Você so precisa determinar a quantidade de memória e o Lambda cuida do resto, CPU, Disco e IO.
 
@@ -35,7 +35,7 @@ Isso é o mais interessante, muitas vezes esse servico sera gratuito. Serio? Sim
 Excedendo o nível gratuito, você só paga pelo tempo de execução, o tempo de execução não conta o tempo de iniciar a "instância", e sim a partir do momento que seu codigo inicia e termina, isso é demais.
 Mas lembre-se seu codigo teve ficar armazenado em algum lugar! O Lambda armazena no s3, e isso pode gerar um custo baixo. Para detalhes [clique aqui.](https://aws.amazon.com/pt/lambda/pricing/)
 
-##### Nossa marotão!!! Mas oque eu preciso para criar um Lambda?
+##### Nossa marotão 😎 haha!!! Mas oque eu preciso para criar um Lambda?
 
 Aqui tem uma parte chatinha, mas muito importante, você deve criar policies e associar a uma role, com os niveis de permissões necessário, garantindo ainda mais segurança e deixando uma arquitetura muito mais justa. Para detalhes [clique aqui.](http://docs.aws.amazon.com/pt_br/lambda/latest/dg/access-control-identity-based.html)
 
@@ -106,7 +106,9 @@ Coloque os dados abaixo e selecione a opção "Save and test":
 Resultado do teste:
 
 ![tag10](./imagens/img0011.png)
+
+Faça outro teste com seu nome e sobre nome e verifique o retorno. 😆
 _______
 Espero que o post ajude os iniciantes no mundo de microservices e cloud computing com o Lambda AWS.
 
-###### Feedbacks são bem-vindo!!! Abraços seus lindos!!
+###### Feedbacks são bem-vindo!!! Abraços 😘!!
