@@ -107,7 +107,7 @@ Resultado do teste:
 
 ![tag10](./imagens/img0011.png)
 
-Faça outro teste com seu nome e sobre nome e verifique o retorno. 😆
+Faça outro teste com seu nome e sobrenome e verifique o resultado. 😆
 _______
 Espero que o post ajude os iniciantes no mundo de cloud computing com o Lambda AWS.
 
